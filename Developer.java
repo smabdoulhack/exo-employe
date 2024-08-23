@@ -16,6 +16,9 @@ public class Developer extends Employee {
     }
 
     public void employeInfos() {
-
+        System.out.println("ID : " + this.id);
+        System.out.println("NOM : " + this.nom);
+        System.out.println("POSTE : " + poste);
+        System.out.println("SPECIALITE : " + this.specialite);
     };
 }

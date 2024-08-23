@@ -1,11 +1,11 @@
 interface EmployeeOperations {
-    public void addDeveloper(Developer developer);
+    public void addDeveloper();
 
-    public void addManager(Manager manager);
+    public void addManager();
 
-    public void editeManager(Manager manager);
+    public void editeManager();
 
-    public void editeDeveloper(Developer developer);
+    public void editeDeveloper();
 
-    public void deleteEmployee(Employee employee);
+    public void deleteEmployee();
 }
